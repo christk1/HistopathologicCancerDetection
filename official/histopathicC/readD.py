@@ -57,9 +57,10 @@ def _parse_image_function(example_proto):
 
     image = tf.image.decode_jpeg(parsed["image_raw"])
     image = tf.reshape(image, [48, 48, 3])
+    """augmentation"""
     #image = tf.image.random_flip_left_right(image) # flip image randomly with a 50% chance
     #image = tf.image.random_brightness(image, max_delta=0.3) # random brightness
-    image = tf.image.rot90(image, k=1)
+    #image = tf.image.rot90(image, k=1)
     #print("ankle:", r_num_rotate)
     #image = tf.image.random_saturation(image, 0, 2)
     #image = tf.image.random_hue(image, 0.1)
