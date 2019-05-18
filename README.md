@@ -10,4 +10,5 @@ If you want to make a kaggle submission, you can add the remaining 20%(validatio
 and hopefully gain much better results.
 
 Validation is the blue line, training is the orange one.
+
 ![alt text](imgs/train_acc.png) ![alt text](imgs/val_acc.png) ![alt text](imgs/loss.png) 
