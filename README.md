@@ -21,3 +21,5 @@ Instructions:
 4) python3 convertTiftoJpeg.py to convert images from .tif to .jpeg format(change path inside the file)
 5) python3 createDataset.py to generate tfrecords
 6) python3 Simple_model.py to train the model
+
+tensorboard --logdir="path/to/Simple_model_model" to view graphs
