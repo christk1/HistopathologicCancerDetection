@@ -1,4 +1,4 @@
-"""Convolutional Neural Network Estimator for Simple_model, built with tf.layers."""
+"""Convolutional Neural Network Estimator for Simple_model, built with tf.keras.layers."""
 
 from __future__ import absolute_import
 from __future__ import division
