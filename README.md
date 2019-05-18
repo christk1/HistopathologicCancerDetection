@@ -20,4 +20,4 @@ Instructions:
 3) Download the dataset and extract train.zip under official/histopathicC/train/ and train_labels.csv.zip under official/histopathicC/
 4) python3 convertTiftoJpeg.py to convert images from .tif to .jpeg format(change path inside the file)
 5) python3 createDataset.py to generate tfrecords
-6) python3 Simple_model.py
+6) python3 Simple_model.py to train the model
