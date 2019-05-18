@@ -9,3 +9,4 @@ The performance is 90+% accuracy on validation set.
 If you want to make a kaggle submission, you can add the remaining 20%(validation) to the training set, retrain
 and hopefully gain much better results.
 
+![alt text](imgs/loss.png)
