@@ -1,3 +1,5 @@
+""" Iterates through the dataset and displays images """
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import random
