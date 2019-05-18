@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 def Alexlike(data_format):
-    """Simple_model model for whales classification.
+    """Alexlike model.
 
     Args:
       data_format: Either 'channels_first' or 'channels_last'. 'channels_first' is
@@ -70,7 +70,7 @@ def Alexlike(data_format):
         ])
 
 def VGGlike(data_format):
-    """Simple_model model for whales classification.
+    """VGGlike model.
 
     Args:
       data_format: Either 'channels_first' or 'channels_last'. 'channels_first' is
