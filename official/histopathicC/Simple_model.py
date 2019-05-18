@@ -48,12 +48,7 @@ def model_fn(features, labels, mode, params):
         logits = model(image, training=True)
         labels = tf.reshape(labels, (-1, 1))
         loss = tf.losses.sigmoid_cross_entropy(multi_class_labels=labels, logits=logits)
-        """
-        how tf.accuracy works.
-        we have a batch (rows) with labels(?, 1) and logits(?, n_of_classes).
-        We call tf.argmax so we can find the index of max in each row, which corresponds
-        to the label
-        """
+
         result = tf.cast(tf.greater(logits, 0.5), tf.int32)
         accuracy = tf.metrics.accuracy(
             labels=labels, predictions=result)
