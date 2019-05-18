@@ -15,7 +15,9 @@ Validation is the blue line, training is the orange one.
 
 
 Instructions:
-1) Download the dataset and extract train.zip under official/histopathicC/train/ and train_labels.csv.zip under official/histopathicC/
-2) python3 convertTiftoJpeg.py to convert images from .tif to .Jpeg format(change path inside the file)
-3) python3 createDataset.py to generate tfrecords
-4) python3 Simple_model.py
+1) install dependencies in official/requirements.txt
+2) export PYTHONPATH="$PYTHONPATH:/path/to/HistopathologicCancerDetection" 
+3) Download the dataset and extract train.zip under official/histopathicC/train/ and train_labels.csv.zip under official/histopathicC/
+4) python3 convertTiftoJpeg.py to convert images from .tif to .jpeg format(change path inside the file)
+5) python3 createDataset.py to generate tfrecords
+6) python3 Simple_model.py
