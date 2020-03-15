@@ -7,7 +7,7 @@ and for performance evaluation i made an 80/20 split of the train(folder) datase
 The performance is 90+% accuracy on validation set.
 
 If you want to make a kaggle submission, you can add the remaining 20%(validation) to the training set, retrain
-and hopefully gain much better results.
+and hopefully gain much better results. As you can see by the below graph, there is both relatively high bias and variance which means that a more complex model could also help.
 
 Validation is the blue line, training is the orange one.
 
